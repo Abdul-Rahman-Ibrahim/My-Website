@@ -1,0 +1,114 @@
+/*styling*/
+
+body{
+	margin: 5px;
+}
+
+img.logo{
+	display: inline-block;
+	width: 15%;
+	height: 130px;
+}
+
+header{
+	width: 85%;
+	height: 130px;
+	float: right;
+	background-color: #fbfbfbb5;
+	/*box-shadow: 1px 4px 6px grey;*/
+}
+
+nav{
+	margin-top: 20px;
+	width: 80%;
+	float: right;
+}
+
+nav a{
+	display: inline-block;
+	width: 5%;
+	height: 50px;
+	margin: 0 150px 0 0;
+	border-radius: 50%;
+}
+
+a img{
+	width: 50px;
+	opacity: .5;
+	transition-property: opacity;
+}
+
+a img:hover{
+	opacity: 1;
+}
+
+div{
+	width: 100%;
+}
+
+
+
+div.intro img{
+	display: block;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0 solid #000000;
+	border-radius: 50%;	
+}
+
+h1, h2{
+	text-align: center;
+}
+
+.intro p{
+	display: block;
+	text-align: center;
+	margin: 2px;
+	font-size: 15px;
+}
+
+p.italic{
+	font-style: italic;
+	font-size: 18px;
+	
+}
+
+div.main{
+	column-count: 1;
+}
+
+footer{
+	width: 100%;
+	height: 180px;
+	background-color: #dbdbdb6e;
+	text-align: center;
+	transition-property: background-color;
+	transition-duration: .5s;
+	transition-delay: .2s;
+	transition-timing-function: linear;
+}
+
+footer a{
+	display: block;
+	text-decoration: none;
+}
+
+footer:hover{
+	background: rgb(2,0,36);
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(131,131,210,1) 45%, rgba(0,212,255,1) 100%);
+	color: #ffffff;
+}
+
+a.to{
+	padding: 50px;
+	color: blue;
+}
+
+footer a:first-child{
+	text-decoration: none;
+	font-size: 15px;
+	color: blue;
+}
+
+
